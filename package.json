@@ -1,0 +1,25 @@
+{
+  "name": "node-ffi",
+  "version": "1.0.0",
+  "description": "Few functions to invoke win32 api",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bharathb04/node-ffi.git"
+  },
+  "author": "BB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bharathb04/node-ffi/issues"
+  },
+  "homepage": "https://github.com/bharathb04/node-ffi#readme",
+  "dependencies": {
+    "ffi": "^2.3.0"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
