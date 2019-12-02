@@ -17,7 +17,7 @@ setTimeout(() => {
     "If the monitor is set to wake, this value will be non Zero:",
     api.setWakeDisplay()
   );
-}, 3000);
+}, 5000);
 
 console.log("Last Input time in HH:MM:SS.ms format:", api.getLastInputTime());
 
@@ -25,7 +25,7 @@ console.log("Last Input time in HH:MM:SS.ms format:", api.getLastInputTime());
 but the seconds will be the same whatever delay we input*/
 setTimeout(() => {
   console.log(
-    "Last Input time with 5s delay to function call:",
+    "Last Input time with 2s delay to function call:",
     api.getLastInputTime()
   );
-}, 5000);
+}, 2000);
